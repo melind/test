@@ -3,33 +3,35 @@
 }
 
 html, body {
-  height: 100%;
+
   margin: 0;
 }
 
 header {
   /*border: 2px solid yellow;*/
   height: 11%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   color: #142b52;
 }
 .place {
   padding-left: 3%;
+  margin-top: 1%;
 }
 .partners {
   /*border: 2px solid black;*/
   width: 13%;
-  height: 100%;
+  height: 70%;
   font-size: 60%;
   color: #142b52;
   text-align: center;
   margin-top: 1%;
 }
 .partners img {
-  width: 100%;
-  height: 150%;
-  margin-top: -20%;
+  width: 50%;
+  height: 200%;
+  margin-top: -18%;
 }
 .preview {
   /*border: 2px solid green;*/
@@ -38,7 +40,7 @@ header {
   color: white;
 }
 .image {
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 .logo {
@@ -52,28 +54,32 @@ header {
   position: absolute;
   background-color: #a59b56;
   width: 20%;
-  height: 10%;
+  height: 8%;
   top: 5%;
   left: 78%;
   display: flex;
   align-items: center;
 }
+#phone {
+  width: 30%;
+}
 .phone{
-  height: 70%;
-  width: 70%;
+  height: 50%;
+  width: 50%;
   /*border: 2px solid black;*/
-  margin-left: 25%;
+  margin-left: 70%;
 }
 .number{
   /*border: 2px solid black;*/
-  width: 500%;
+  width: 100%;
   height: 100%;
   text-align: center;
   padding-top: 5%;
-  font-size: 125%;
+  font-size: 130%;
+  margin-left: -10%;
 }
 .number p {
-  font-size: 68%;
+  font-size: 60%;
   margin-top: -1%;
 }
 .next {
@@ -85,7 +91,7 @@ header {
   background-color: #142b52;
   opacity: 0.9;
   left: 40%;
-  bottom: 1%;
+  bottom: -3%;
 
 }
 .information {
@@ -105,8 +111,8 @@ header {
   flex: 1;
   background-color: #a59b56;
   margin-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
   text-align: center;
 }
 .inscription h1 {
@@ -182,6 +188,7 @@ input:focus {
   height: 100%;
   background-color: white;
   margin-top: 1%;
+
 }
 .city{
   /*border: 2px solid blue;*/
@@ -240,9 +247,10 @@ input:focus {
   /*border: 2px solid orange;*/
   height: 100%;
   padding-top: 2%;
-  width: 50%;
+  width: 40%;
   padding-bottom: 2%;
-  margin-left: 53%;
+  margin-left: 45%;
+  margin-bottom: 4%;
   margin-top: 3%;
   background-color: #142b52;
 
@@ -258,8 +266,8 @@ input:focus {
   /*border: 2px solid orange;*/
   flex: 1;
   margin-top: 9.5%;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 11%;
+  padding-right: 11%;
   width: 100%;
   height: 90%;
 }
